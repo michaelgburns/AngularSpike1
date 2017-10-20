@@ -16,6 +16,7 @@ namespace AngularSpike1.Controllers
             return View();
         }
        
+        [Authorize]
         public ActionResult Three()
         {
             return View();

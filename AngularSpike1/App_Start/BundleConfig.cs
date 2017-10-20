@@ -14,6 +14,7 @@ namespace AngularSpike1
                       "~/Content/site.css"));
             bundles.Add(new ScriptBundle("~/bundles/AngularSpike1")
                      .IncludeDirectory("~/Scripts/Controllers", "*.js")
+                     .IncludeDirectory("~/Scripts/Factories", "*.js")
                      .Include("~/Scripts/AngularSpike1.js"));
 
             BundleTable.EnableOptimizations = true;
