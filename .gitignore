@@ -157,5 +157,5 @@ $RECYCLE.BIN/
 .DS_Store
 /GigHub/App_Data
 /.vs
-/*.sln
+
 /AngularSpike1/*.csproj
